@@ -1,6 +1,6 @@
 import qrcode
 import tkinter as tk
-from tkinter import message box
+from tkinter import messagebox
 data = 'https://youtube.com/@cybernaut-Edu-Tech?si=xWDOq5woMWJMDt5Q'
 filename = 'image1.png'
 features = qrcode.QRCode(version=1,box_size=40,border=3)
